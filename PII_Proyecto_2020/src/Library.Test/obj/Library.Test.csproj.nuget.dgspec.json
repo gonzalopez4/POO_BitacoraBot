@@ -1,0 +1,348 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library.Test\\Library.Test.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library.Test\\Library.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library.Test\\Library.Test.csproj",
+        "projectName": "Library.Test",
+        "projectPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library.Test\\Library.Test.csproj",
+        "packagesPath": "C:\\Users\\valeb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valeb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library\\Library.csproj": {
+                "projectPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library\\Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library\\Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library\\Library.csproj",
+        "projectName": "Library",
+        "projectPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\valeb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valeb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Telegram\\Library_Telegram.csproj": {
+                "projectPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Telegram\\Library_Telegram.csproj"
+              },
+              "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Whatsapp\\Library_Whatsapp.csproj": {
+                "projectPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Whatsapp\\Library_Whatsapp.csproj"
+              },
+              "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Word\\Library_Word.csproj": {
+                "projectPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Word\\Library_Word.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[15.7.1, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Telegram\\Library_Telegram.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Telegram\\Library_Telegram.csproj",
+        "projectName": "Library_Telegram",
+        "projectPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Telegram\\Library_Telegram.csproj",
+        "packagesPath": "C:\\Users\\valeb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Telegram\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valeb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[15.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Whatsapp\\Library_Whatsapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Whatsapp\\Library_Whatsapp.csproj",
+        "projectName": "WhatsappApiUCU",
+        "projectPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Whatsapp\\Library_Whatsapp.csproj",
+        "packagesPath": "C:\\Users\\valeb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Whatsapp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valeb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Word\\Library_Word.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Word\\Library_Word.csproj",
+        "projectName": "Library_Word",
+        "projectPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Word\\Library_Word.csproj",
+        "packagesPath": "C:\\Users\\valeb\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\valeb\\OneDrive\\Escritorio\\ucu\\Programacion\\repositorios\\PII_Proyecto_2020_2_Equipo12\\src\\Library_Word\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\valeb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
